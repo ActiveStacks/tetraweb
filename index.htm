@@ -14,32 +14,17 @@
 </head>
 
 <body>
-    <section class="block container">
-        <Header class="block__header">
-            <h2 class="block__heading">Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis dolorem dicta at voluptas
-                modi.
-            </p>
-        </Header>
-        <div style="width: 30%; padding: 4rem">
-            <div class="card card--secondary">
-                <header class="card__header">Card Title</header>
-                <div class="card__body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, assumenda?
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <section class="block block--dark block--skewed-left">
-        <div class="container">
-            <h2 class="block__heading">Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit reiciendis dolorem dicta at voluptas
-                modi.
-            </p>
-        </div>
-    </section>
+    <nav class="nav collapsible ">
+        <a class="nav__brand" href="/"> <img src="images/logo.svg" alt=""></a>
+        <svg class="icon icon--white nav__toggler">
+            <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Services</a></li>
+            <li class="nav__item"><a href="#">Technologies</a></li>
+            <li class="nav__item"><a href="#">Contact Us</a></li>
+        </ul>
 
 </body>
 <script src="js/main.js">
